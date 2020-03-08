@@ -9,13 +9,12 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        Text("Hello, World!")
-    }
-}
+       @State var pins: [Pin] = [
+      Pin(title: "Ortega Park", coordinate: .init(latitude: 37.342226, longitude: -122.025617)),
+    ]
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    var body: some View {
+        MapView(pins: $pins)
+            .edgesIgnoringSafeArea(.all)
     }
 }

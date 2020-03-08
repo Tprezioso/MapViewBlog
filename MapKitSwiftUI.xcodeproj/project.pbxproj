@@ -13,6 +13,7 @@
 		9FD567932411B1EA00A6C04C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FD567922411B1EA00A6C04C /* Assets.xcassets */; };
 		9FD567962411B1EA00A6C04C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FD567952411B1EA00A6C04C /* Preview Assets.xcassets */; };
 		9FD567992411B1EA00A6C04C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FD567972411B1EA00A6C04C /* LaunchScreen.storyboard */; };
+		9FD567A12411B20500A6C04C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD567A02411B20500A6C04C /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9FD567952411B1EA00A6C04C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9FD567982411B1EA00A6C04C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FD5679A2411B1EA00A6C04C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FD567A02411B20500A6C04C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				9FD5678C2411B1EA00A6C04C /* AppDelegate.swift */,
 				9FD5678E2411B1EA00A6C04C /* SceneDelegate.swift */,
 				9FD567902411B1EA00A6C04C /* ContentView.swift */,
+				9FD567A02411B20500A6C04C /* MapView.swift */,
 				9FD567922411B1EA00A6C04C /* Assets.xcassets */,
 				9FD567972411B1EA00A6C04C /* LaunchScreen.storyboard */,
 				9FD5679A2411B1EA00A6C04C /* Info.plist */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FD5678D2411B1EA00A6C04C /* AppDelegate.swift in Sources */,
+				9FD567A12411B20500A6C04C /* MapView.swift in Sources */,
 				9FD5678F2411B1EA00A6C04C /* SceneDelegate.swift in Sources */,
 				9FD567912411B1EA00A6C04C /* ContentView.swift in Sources */,
 			);
